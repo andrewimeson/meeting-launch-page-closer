@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-
   "name": "Zoom Closer",
   "description": "This extension automatically closes the launched window from Zoom meetings.",
-  "version": "1.6",
+  "homepage_url": "https://github.com/andrewimeson/zoom-closer",
+  "version": "1.7",
 
   "icons": {
     "16": "assets/icon-16.png",
