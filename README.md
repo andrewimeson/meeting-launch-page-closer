@@ -1,4 +1,4 @@
-# Zoom Close
+# Zoom Tab Closer
 
 Automatically close Zoom windows.
 
