@@ -6,7 +6,7 @@ Automatically close Zoom meeting launch windows in Chrome after the meeting laun
 
 ![screenshot](assets/github_socail_image.png)
 
-### Building
+## Building
 
 To package up for uploading to the Chrome Web Store:
 

@@ -1,0 +1,22 @@
+---
+
+name: Test Extension
+# yamllint disable-line rule:truthy
+on:
+  - push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # Full git history is needed to get a proper list of changed files
+          # within `super-linter`
+          fetch-depth: 0
+
+      - name: Lint all files
+        uses: github/super-linter@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Only parse changed files
+          VALIDATE_ALL_CODEBASE: false
