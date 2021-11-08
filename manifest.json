@@ -3,7 +3,7 @@
   "name": "Zoom Tab Closer",
   "description": "Automatically close the Zoom meeting launch page.",
   "homepage_url": "https://github.com/andrewimeson/zoom-closer",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "content_security_policy": {
     "default-src": "self"
   },
